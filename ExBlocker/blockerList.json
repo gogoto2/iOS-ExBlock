@@ -1,0 +1,67 @@
+[
+  {
+    "trigger" : {
+      "url-filter" : "^[^:]+://+([^:/]+\\.)?showbiz\\.ua[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type" : [
+        "third-party",
+        "first-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[^:]+://+([^:/]+\\.)?admaster\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type" : [
+        "third-party",
+        "first-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[^:]+://+([^:/]+\\.)?admixer\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type" : [
+        "third-party",
+        "first-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[^:]+://+([^:/]+\\.)?mmi\\.bemobile\\.ua[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type" : [
+        "third-party",
+        "first-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+        "url-filter" : "^[^:]+://+([^:/]+\\.)?b\\.ex\\.ua[:/]",
+        "url-filter-is-case-sensitive": true,
+        "load-type" : [
+            "third-party",
+            "first-party"
+        ]
+    },
+    "action" : {
+        "type" : "block"
+    }
+  }
+]
